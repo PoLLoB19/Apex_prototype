@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1400px, initial-scale=1.0" />
+    <title>Apeex.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js">
+    
+    </script>
+  </head>
+  <body >
+
+    
+    <div class="cart-items bg-white z-20 " >
+      <button class="absolute right-0 block text-[15px]" onclick="be()"><i class="fa-solid fa-x"></i></button>
+      <h1 class="text-center mb-2 mt-5 cart-h"> Your items are:</h1>
+      <div class="ekhane h-[70vh] overflow-y-scroll"></div>
+
+      <div class="lis bg-amber-600 text-white 
+      fixed bottom-0 w-full p-4">
+        <div class="total_it">Total Items:</div>
+        <div class="sub">Subtotal:</div>
+        <div class="">
+        <button class="p-2  bg-[#e95050] mt-2 rounded-lg ">Buy Now</button>
+      </div>
+      </div>
+    </div>
+  
+ <div class="ca h-[100vh] w-[80vw]  left-0 bg-black  opacity-50 " onclick="be()"></div>
+    
+    <div class="tip "></div>
+    <div>
+      <menu class="menu">
+        <div class="men"><a class="link" href="">Find a store</a></div>
+        <div class="men"><a class="link" href="">Support</a></div>
+        <div class="men"><a class="link" href="">Track Your Order</a></div>
+        <div class="men"><a class="link" href="">Corporate</a></div>
+        <div class=""><a class="link" href="">sign in</a></div>
+      </menu>
+    </div>
+
+    <div class="back" onclick="be()"></div>
+
+    <nav class="nav">
+      <div class="first">
+        <div class="logo">
+          <img style="height: 50px" src="./pic/logo.png" alt="" />
+        </div>
+
+        <div class="writing">
+          <div><a href="" class="nali">Biggest Sale</a></div>
+          <div><a href="" class="nali">Women</a></div>
+          <div><a href="" class="nali">Man</a></div>
+          <div><a href="" class="nali">Kids</a></div>
+          <div><a href="" class="nali">Gift Voucher</a></div>
+          <div><a href="" class="nali">Wedding Collection</a></div>
+        </div>
+        <div class="icon">
+          <div class="search ic">
+            <a class="icl" href=""
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </div>
+          <div class="heart ic">
+            <a class="icl" href=""><i class="fa-regular fa-heart"></i></a>
+          </div>
+          <button class="shop ic icl"  onclick="ber()">
+           <i class="fa-solid fa-bag-shopping"></i>
+            <div class="hold">0</div>
+          </button>
+          <button class="user ic icl" 
+       >
+            <i class="fa-regular fa-user"></i>
+          </button>
+          <div class="moon ic " id="mo">
+            <a class="icl" href=""><i class="fa-regular fa-moon"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="cel">
+      <div class="h1"><h1>Celebrate 2024: Unlock Up To 60% Off!</h1></div>
+      <div class="but">
+        <div class="shoe"><a class="butli" href=""> Shop Footweaar</a></div>
+        <div class="clo"><a class="butli" href="">Shop Clothings</a></div>
+      </div>
+    </div>
+    <div class="grey">
+      <div>
+        <video
+          class="vid"
+          src="./pic/Apex - The largest collection of Style and Design.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <div class="step">
+        <h1>Step into Style</h1>
+        <h4>
+          Everyday basics to on-trend essentials, discover styles for every
+          occasion.
+        </h4>
+        <div class="ma">
+          <div class="man"><a href="" class="mali">Men</a></div>
+          <div class="wom"><a href="" class="mali">Women</a></div>
+          <div class="kid"><a href="" class="mali">Kids</a></div>
+        </div>
+      </div>
+      <div class="imghf">
+        <img
+          class="imgf"
+          src="./pic/e29204ac-29bb-4e44-b3fe-6286c925e9ca.jpeg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="sb">
+      <div class="sbig">
+        <img
+          class="one"
+          src="./pic/Newfolder/41e7dee2-21bf-4839-ad5f-3f9b5814c769.jpg"
+          alt=""
+        />
+        <div class="sbri">
+          <h2 class="sbh2">Moochie</h2>
+          <p class="sbh3" style="font-weight: 200">
+            Embrace the power of you with luxury
+          </p>
+          <div class="dia"><a class="sba" href=".">Shop Now</a></div>
+        </div>
+      </div>
+
+      <div class="sbig">
+        <img
+          class="one"
+          src="./pic/Newfolder/33669373-29be-4588-a05a-4b66aefd600b.jpg"
+          alt=""
+        />
+        <div class="sbri">
+          <h2 class="sbh2">Jatarea</h2>
+          <p class="sbh3" style="font-weight: 200">
+            Blend Yourself with the world of heritage
+          </p>
+          <div class="dia"><a class="sba" href=".">Shop Now</a></div>
+        </div>
+      </div>
+      <div class="sbig">
+        <img
+          class="one"
+          src="./pic/Newfolder/4aa4761f-763e-423e-b84f-25386baa5707.jpg"
+          alt=""
+        />
+        <div class="sbri">
+          <h2 class="sbh2">Maverick</h2>
+          <p class="sbh3" style="font-weight: 200">
+            Explore to be free with an incredible intergrity
+          </p>
+          <div class="dia"><a class="sba" href=".">Shop Now</a></div>
+        </div>
+      </div>
+      <div class="sbig">
+        <img
+          class="one"
+          src="./pic/Newfolder/a54c6517-2e70-49c9-9090-3f57ebd5103d.jpg"
+          alt=""
+        />
+        <div class="sbri">
+          <h2 class="sbh2">Apex</h2>
+          <p class="sbh3 sbha">
+            Own a style that defines intergriy and heritage
+          </p>
+          <div class="dia"><a class="sba" href=".">Shop Now</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img-ani"></div>
+
+    <div class="weddingbox">
+      <div class="upborder">
+        <div class="upd"></div>
+        <div class="text">Wedding Collection</div>
+        <div class="updv"></div>
+      </div>
+      <marquee behavior="" direction="">
+        <div class="content">
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/5c092c58-e8c2-483f-a0a5-3f30ccd4ab7d.jpg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Moochie Women's Clutch</p>
+              <h2 class="taka">$24</h2>
+            </a>
+            <div class="blank-box"></div>
+          </div>
+
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/f371a420-b3ac-4cfe-99a0-e1fe1f7308a7.jpg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Moochie Women's Clutch</p>
+              <h2 class="taka">$26</h2>
+            </a>
+            <div class="blank-box"></div>
+          </div>
+
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/301a291c-823d-44a9-9c5d-c6574b7690b9.jpg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Moochie Women's Clutch</p>
+              <h2 class="taka">$28</h2>
+            </a>
+            <div class="blank-box"></div>
+          </div>
+
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/dddf72d6-f4ba-4efa-bcaa-1509caf56a96.jpg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Moochie Women's Clutch</p>
+              <h2 class="taka">$22</h2>
+            </a>
+            <div class="blank-box"></div>
+          </div>
+        </div>
+      </marquee>
+      <div class="downborder"></div>
+    </div>
+
+    <div class="offer">
+      <div class="offer-box">
+        <div class="relation">
+          <a class="link-img" href="">
+            <img
+              class="offer-box-img"
+              src="./pic/box/3b4cea94-abfb-4c5d-9163-2d75f410cfd5.jpg"
+              alt=""
+          /></a>
+          <div class="boxwri">
+            <h4 style="text-align: center; padding-left: 35px; font-size: 14px">
+              The Biggest Sale Campaign
+            </h4>
+            <p class="p-off" style="text-align: center">
+              Seize the opportunity with our exclusive! Indulge in savings
+              ranging from 20% to 60% on all tangible items, excluding Gift
+              Vouchers.
+            </p>
+            <a href="" class="offer-link">Show More</a>
+          </div>
+        </div>
+      </div>
+      <div class="offer-box">
+        <div class="relation">
+          <a class="link-img1" href=""
+            ><img
+              class="offer-box-img"
+              src="./pic/box/7a602d53-b8f0-49f1-9df7-26ed42d71be6.jpg"
+              alt=""
+          /></a>
+          <div class="boxwri">
+            <h4 style="text-align: center; padding-left: 35px; font-size: 14px">
+              "Venturini by You" - Bespoke
+            </h4>
+            <p class="p-off" style="text-align: center">
+              Apex's Bespoke Shoe Service, where limitless customization
+              reflects your unique style and personality
+            </p>
+            <a href="" class="offer-link">Show More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-box">
+        <div class="relation">
+          <a href="" class="link-img"
+            ><img
+              class="offer-box-img"
+              src="./pic/box/2b869d92-e775-4e1c-af56-4c811c6428b1.jpg"
+              alt=""
+          /></a>
+          <div class="boxwri">
+            <h4 style="text-align: center; padding-left: 35px; font-size: 14px">
+              Get 5X Rewards Points
+            </h4>
+            <p class="p-off" style="text-align: center">
+              Earn Points, SMS Coupons, and Exclusive Partnership Benefits
+            </p>
+            <a href="" class="offer-link">Show More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="best">
+      <div class="head">
+        <i class="fa-solid fa-arrow-right ar"></i>
+        <span class="sell">Best Seller </span>
+        <span class="trend">What's Trending</span>
+      </div>
+      <div class="view">
+        <a class="view-all" href="">View all</a>
+        <i class="fa-solid fa-less-than ba"></i>
+        <i class="fa-solid fa-greater-than ba"></i>
+      </div>
+    </div>
+
+    <div class="content shoesa">
+      <div class="bag1 shoe">
+        <img
+          class="imgbag"
+          src="./pic/shoes/sh/2e8cd738-d0d3-4e1f-a6e4-d4ca559a9b37.jpg"
+          alt=""
+        />
+        <a class="content-link" href="">
+          <p class="title">Sprint Men's Sports Shoe</p>
+          <h2 class="taka">$30</h2>
+        </a>
+        <button class="java" onclick="add(),jha(),
+        cat()">Buy Now</button>
+        <div class="blank-box"></div>
+      </div>
+
+      <div class="bag1">
+        <img
+          class="imgbag"
+          src="./pic/shoes/sh/691995e1-1413-4768-98e8-c4f7af296127.jpg"
+          alt=""
+        />
+        <a class="content-link" href="">
+          <p class="title">Sprint Men's Sports Shoe</p>
+          <h2 class="taka">$36</h2>
+        </a>
+        <button class="java" onclick="add(),cat(),jh2()">Buy Now</button>
+        <div class="blank-box"></div>
+      </div>
+
+      <div class="bag1">
+        <img
+          class="imgbag"
+          src="./pic/shoes/sh/8b8cc483-e7b8-4615-ba6e-48d8d9baaf19.jpg"
+          alt=""
+        />
+        <a class="content-link" href="">
+          <p class="title">Sprint Men's Sports Shoe</p>
+          <h2 class="taka">$28</h2>
+        </a>
+        <button class="java" onclick="add(),afb(),jh3()">Buy Now</button>
+        <div class="blank-box"></div>
+      </div>
+
+      <div class="bag1">
+        <img class="imgbag"  src="./pic/shoes/sh/93582A40_1.jpeg" alt="" />
+        <a class="content-link" href="">
+          <p class="title">Sprint Men's Sports Shoe</p>
+          <h2 class="taka">$32</h2>
+        </a>
+        <button class="java" onclick="add(),afc(),jh4()">Buy Now</button>
+        <div class="blank-box"></div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="col-shoe">
+        <div class="col-shoe-div">
+          <a class="col-shoe-link" href="">
+            <img
+              class="col-shoe-img"
+              src="./pic/shoes/as/28b64d5a-1a5b-4851-a5ed-3a7400095942.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <a class="tex" href="">Shoes</a>
+      </div>
+
+      <div class="col-shoe">
+        <div class="col-shoe-div">
+          <a class="col-shoe-link" href="">
+            <img
+              class="col-shoe-img"
+              src="./pic/shoes/as/5efc5fe6-0b7e-416b-aeeb-a31d8ebb10b5.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <a class="tex" href="">Heels</a>
+      </div>
+
+      <div class="col-shoe">
+        <div class="col-shoe-div">
+          <a class="col-shoe-link" href="">
+            <img
+              class="col-shoe-img"
+              src="./pic/shoes/as/c358f86e-52a3-463f-9ae0-901e6bd8536a.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <a class="tex" href="">Canvas</a>
+      </div>
+      <div class="col-shoe">
+        <div class="col-shoe-div">
+          <a class="col-shoe-link" href="">
+            <img
+              class="col-shoe-img"
+              src="./pic/shoes/as/fdcf19b0-3f03-4b87-8611-99140a9befbb.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <a class="tex" href="">Formals </a>
+      </div>
+    </div>
+
+    <div class="img-anim"></div>
+
+    <div class="weddingbox">
+      <div class="upborder">
+        <div class="upd"></div>
+        <div class="text">WINTER COLLECTION</div>
+        <div class="updv"></div>
+      </div>
+      
+        <div class="content">
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/shoes/sh/691995e1-1413-4768-98e8-c4f7af296127.jpg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Sprint Men's Sports Shoe</p>
+              <h2 class="taka">$24</h2>
+            </a>
+            <button class="java" onclick="add()">Buy Now</button>
+            <div class="blank-box"></div>
+          </div>
+
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/shoes/sh/8b8cc483-e7b8-4615-ba6e-48d8d9baaf19.jpg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Sprint Men's Sports Shoe</p>
+              <h2 class="taka">$26</h2>
+            </a>
+            <button class="java" onclick="add()">Buy Now</button>
+            <div class="blank-box"></div>
+          </div>
+
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/shoes/sh/93581A66_1.jpeg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Sprint Men's Sports Shoe</p>
+              <h2 class="taka">$28</h2>
+            </a>
+            <button class="java" onclick="add()">Buy Now</button>
+            <div class="blank-box"></div>
+          </div>
+
+          <div class="bag1">
+            <img
+              class="imgbag"
+              src="./pic/shoes/sh/93582A40_1.jpeg"
+              alt=""
+            />
+            <a class="content-link" href="">
+              <p class="title">Sprint Men's Sports Shoe</p>
+              <h2 class="taka">$22</h2>
+            </a>
+            <button class="java" onclick="add()">Buy Now</button>
+            <div class="blank-box"></div>
+          </div>
+        </div>
+      </marquee>
+      <div class="downborder"></div>
+    </div>
+
+    <footer class="footer">
+ 
+      <div class="table">
+        <div class="tab">
+          <div class="free aba">
+            <img class="tableimg" src="./pic/footer/305a8dca-863a-4f12-87fb-ff4ce50273bf.png" alt="">
+            <h5 class="tableh">Fast & Free Shipping</h5>
+            <p class="tablep">
+              Get Fast and hassle-free delivery of your orders to your doorstep. Ensuring a seamless and hassle-free experience
+            </p>
+            <a href="" class="tablelink"> Learn more</a>
+
+          </div>
+  
+          <div class="free">
+            <img class="tableimg" src="./pic/footer/caa1b470-6545-4ff9-bafa-f1d2db452f0d (1).svg" alt="">
+            <h5 class="tableh">Super Deals </h5>
+            <p class="tablep">
+              Stay updated on all our latest news, offers, and campaigns.
+            </p>
+            <a href="" class="tablelink"> Learn more</a>
+
+          </div>
+
+          
+          <div class="free">
+            <img class="tableimg" src="./pic/footer/eaa1ca5b-3448-48b9-9ae3-05a0e2782762 (1).svg" alt="">
+            <h5 class="tableh">Apex Rewards</h5>
+            <p class="tablep">
+              Unlock a world of exciting benefits with Apex Rewards loyalty program.
+            </p>
+            <a href="" class="tablelink"> Learn more</a>
+
+          </div>
+
+ 
+
+            
+          <div class="freea">
+            <a href="" class="instalink"> <img src="./pic/footer/21c4fcd8-40a4-4299-9384-417029ca6456.png" alt="" class="insta">
+             <img src="./pic/footer/304ea012-a1d6-4e0e-a7c8-497c16d0838c.jpg" alt="" class="insta">
+             <img src="./pic/footer/45e37e99-4209-42aa-89ec-f571d77e850e.jpg" alt="" class="insta">
+             <img src="./pic/footer/20d2a998-6052-4e02-b198-5ad0c3fe26bb.jpg" alt="" class="insta"></a>
+            <h5 class="tableh">Stay Connected</h5>
+            <p class="tablep">
+              Keep up with the latest styles, news and offers on our social channels.
+            </p>
+          
+
+          </div>
+        </div>
+      </div>
+      
+        <div class="last">
+         <div class="sign">
+
+          <h3 class="lasth">Sign up and Stay Updated</h3>
+          <p class="lastp">Sign up and stay updated with the latest product launches and offers!</p>
+
+          <input placeholder="Enter your email" class="lastin" type="email">
+          <div class="lasa">
+            <i class="fa-solid fa-arrow-right lapa"></i>
+          </div>
+         </div>
+
+
+         <div class="about">
+
+          <h3 class="lasth">About Apex</h3>
+          <a href="" class="lasli">About us</a>
+          <a href="" class="lasli">Blog</a>
+          <a href="" class="lasli">Sustainability</a>
+          <a href="" class="lasli">Press Release</a>
+          <a href="" class="lasli">Contact Us</a>
+          <a href="" class="lasli">  FAQ's</a>
+
+         
+          </div>
+
+
+          
+         <div class="about">
+
+          <h3 class="lasth">About Apex</h3>
+          <a href="" class="lasli">Terms & Conditions
+          </a>
+          <a href="" class="lasli">Shipping & Delivery</a>
+          <a href="" class="lasli">  How to order</a>
+          <a href="" class="lasli">Exchange & Return Policy</a>
+          <a href="" class="lasli">Warranty Policy</a>
+          <a href="" class="lasli">   Privacy Policy</a>
+
+         
+          </div>
+
+           <div class="bk">
+            <img class="bk" src="./pic/footer/a6402468-6140-4958-bc85-1d4db76d9b1a.png" alt="">
+           </div>
+         </div>
+
+        </div>
+        <div class="ses">
+          © Apex Footwear Limited 2024
+        </div>
+
+    </footer>
+  </body>
+</html>
