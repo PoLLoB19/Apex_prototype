@@ -5,19 +5,24 @@ body {
   margin: 0;
  
 }
+.bodycolo{
+  background-color: black;
+}
 .cart-items{
  height:100vh ;
   width: 20vw;
-
-  position: fixed;
-  right: 0;
+position: fixed;
+  right: -100%;
   z-index: 10;
-  display: none;
+  opacity: 0;
+  transition: right 0.8s ease;
  
 }
 .cca{
-  display: block;
-  transition: right 2s ease-in;
+ opacity: 1;
+  position: fixed;
+  right: 0;
+ 
 }
 
 
@@ -25,11 +30,15 @@ body {
   display: none;
   z-index: 1;
   position: fixed;
+  left: -100%;
+  transition: left 0.8s ease;
   
 }
 .cate{
-  display: block;
+display: block;
   position: fixed;
+  left: 0;
+  transition:  0.8s ease;
 }
 
 .menu {
@@ -687,7 +696,7 @@ font-weight: 400;
   text-decoration: none;
 }
 
-.java{
+.add_to{
   border-radius: 20px;
  padding: 5px;
  cursor: pointer;
@@ -695,4 +704,18 @@ font-weight: 400;
 margin-top: 10px;
 color: aliceblue;
 
+}
+.img_d{
+  height: 65px;
+  width: 90px;
+  border: 1px  solid black;
+  align-items: center;
+  margin-top: 8px;
+  align-content: center;
+  
+}
+.main_div{
+  display: flex;
+   gap: 15px;
+   justify-items: center;
 }

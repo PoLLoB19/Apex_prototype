@@ -19,31 +19,31 @@
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./script.js">
-    
-    </script>
+  
   </head>
-  <body >
-
-    
-    <div class="cart-items bg-white z-20 " >
-      <button class="absolute right-0 block text-[15px]" onclick="be()"><i class="fa-solid fa-x"></i></button>
-      <h1 class="text-center mb-2 mt-5 cart-h"> Your items are:</h1>
+  <body>
+    <div class="cart-items bg-white z-20">
+      <button class="absolute right-0 block text-[15px]" onclick="be()">
+        <i class="fa-solid fa-x"></i>
+      </button>
+      <h1 class="text-center mb-2 mt-5 cart-h">Your items are:</h1>
       <div class="ekhane h-[70vh] overflow-y-scroll"></div>
 
-      <div class="lis bg-amber-600 text-white 
-      fixed bottom-0 w-full p-4">
+      <div class="lis bg-amber-600 text-white fixed bottom-0 w-full p-4">
         <div class="total_it">Total Items:</div>
         <div class="sub">Subtotal:</div>
         <div class="">
-        <button class="p-2  bg-[#e95050] mt-2 rounded-lg ">Buy Now</button>
-      </div>
+          <button class="p-2 bg-[#e95050] mt-2 rounded-lg">Buy Now</button>
+        </div>
       </div>
     </div>
-  
- <div class="ca h-[100vh] w-[80vw]  left-0 bg-black  opacity-50 " onclick="be()"></div>
-    
-    <div class="tip "></div>
+
+    <div
+      class="ca h-[100vh] w-[80vw] opacity-50 left-0 bg-black"
+      onclick="be()"
+    ></div>
+
+    <div class="tip"></div>
     <div>
       <menu class="menu">
         <div class="men"><a class="link" href="">Find a store</a></div>
@@ -79,17 +79,16 @@
           <div class="heart ic">
             <a class="icl" href=""><i class="fa-regular fa-heart"></i></a>
           </div>
-          <button class="shop ic icl"  onclick="ber()">
-           <i class="fa-solid fa-bag-shopping"></i>
+          <button class="shop ic icl" onclick="ber()">
+            <i class="fa-solid fa-bag-shopping"></i>
             <div class="hold">0</div>
           </button>
-          <button class="user ic icl" 
-       >
+          <button class="user ic icl">
             <i class="fa-regular fa-user"></i>
           </button>
-          <div class="moon ic " id="mo">
+          <button class="moon ic" id="mo" onclick="color()">
             <a class="icl" href=""><i class="fa-regular fa-moon"></i></a>
-          </div>
+          </button>
         </div>
       </div>
     </nav>
@@ -341,12 +340,14 @@
           src="./pic/shoes/sh/2e8cd738-d0d3-4e1f-a6e4-d4ca559a9b37.jpg"
           alt=""
         />
+
         <a class="content-link" href="">
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$30</h2>
         </a>
-        <button class="java" onclick="add(),jha(),
-        cat()">Buy Now</button>
+
+        <button class="add_to">Buy Now</button>
+
         <div class="blank-box"></div>
       </div>
 
@@ -360,7 +361,7 @@
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$36</h2>
         </a>
-        <button class="java" onclick="add(),cat(),jh2()">Buy Now</button>
+        <button class="add_to">Buy Now</button>
         <div class="blank-box"></div>
       </div>
 
@@ -374,17 +375,17 @@
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$28</h2>
         </a>
-        <button class="java" onclick="add(),afb(),jh3()">Buy Now</button>
+        <button class="add_to">Buy Now</button>
         <div class="blank-box"></div>
       </div>
 
       <div class="bag1">
-        <img class="imgbag"  src="./pic/shoes/sh/93582A40_1.jpeg" alt="" />
+        <img class="imgbag" src="./pic/shoes/sh/93582A40_1.jpeg" alt="" />
         <a class="content-link" href="">
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$32</h2>
         </a>
-        <button class="java" onclick="add(),afc(),jh4()">Buy Now</button>
+        <button class="add_to">Buy Now</button>
         <div class="blank-box"></div>
       </div>
     </div>
@@ -449,7 +450,7 @@
         <div class="text">WINTER COLLECTION</div>
         <div class="updv"></div>
       </div>
-      
+      <marquee>
         <div class="content">
           <div class="bag1">
             <img
@@ -461,7 +462,7 @@
               <p class="title">Sprint Men's Sports Shoe</p>
               <h2 class="taka">$24</h2>
             </a>
-            <button class="java" onclick="add()">Buy Now</button>
+            <button class="java">Buy Now</button>
             <div class="blank-box"></div>
           </div>
 
@@ -475,35 +476,27 @@
               <p class="title">Sprint Men's Sports Shoe</p>
               <h2 class="taka">$26</h2>
             </a>
-            <button class="java" onclick="add()">Buy Now</button>
+            <button class="java">Buy Now</button>
             <div class="blank-box"></div>
           </div>
 
           <div class="bag1">
-            <img
-              class="imgbag"
-              src="./pic/shoes/sh/93581A66_1.jpeg"
-              alt=""
-            />
+            <img class="imgbag" src="./pic/shoes/sh/93581A66_1.jpeg" alt="" />
             <a class="content-link" href="">
               <p class="title">Sprint Men's Sports Shoe</p>
               <h2 class="taka">$28</h2>
             </a>
-            <button class="java" onclick="add()">Buy Now</button>
+            <button class="java">Buy Now</button>
             <div class="blank-box"></div>
           </div>
 
           <div class="bag1">
-            <img
-              class="imgbag"
-              src="./pic/shoes/sh/93582A40_1.jpeg"
-              alt=""
-            />
+            <img class="imgbag" src="./pic/shoes/sh/93582A40_1.jpeg" alt="" />
             <a class="content-link" href="">
               <p class="title">Sprint Men's Sports Shoe</p>
               <h2 class="taka">$22</h2>
             </a>
-            <button class="java" onclick="add()">Buy Now</button>
+            <button class="java">Buy Now</button>
             <div class="blank-box"></div>
           </div>
         </div>
@@ -512,110 +505,122 @@
     </div>
 
     <footer class="footer">
- 
       <div class="table">
         <div class="tab">
           <div class="free aba">
-            <img class="tableimg" src="./pic/footer/305a8dca-863a-4f12-87fb-ff4ce50273bf.png" alt="">
+            <img
+              class="tableimg"
+              src="./pic/footer/305a8dca-863a-4f12-87fb-ff4ce50273bf.png"
+              alt=""
+            />
             <h5 class="tableh">Fast & Free Shipping</h5>
             <p class="tablep">
-              Get Fast and hassle-free delivery of your orders to your doorstep. Ensuring a seamless and hassle-free experience
+              Get Fast and hassle-free delivery of your orders to your doorstep.
+              Ensuring a seamless and hassle-free experience
             </p>
             <a href="" class="tablelink"> Learn more</a>
-
           </div>
-  
+
           <div class="free">
-            <img class="tableimg" src="./pic/footer/caa1b470-6545-4ff9-bafa-f1d2db452f0d (1).svg" alt="">
-            <h5 class="tableh">Super Deals </h5>
+            <img
+              class="tableimg"
+              src="./pic/footer/caa1b470-6545-4ff9-bafa-f1d2db452f0d (1).svg"
+              alt=""
+            />
+            <h5 class="tableh">Super Deals</h5>
             <p class="tablep">
               Stay updated on all our latest news, offers, and campaigns.
             </p>
             <a href="" class="tablelink"> Learn more</a>
-
           </div>
 
-          
           <div class="free">
-            <img class="tableimg" src="./pic/footer/eaa1ca5b-3448-48b9-9ae3-05a0e2782762 (1).svg" alt="">
+            <img
+              class="tableimg"
+              src="./pic/footer/eaa1ca5b-3448-48b9-9ae3-05a0e2782762 (1).svg"
+              alt=""
+            />
             <h5 class="tableh">Apex Rewards</h5>
             <p class="tablep">
-              Unlock a world of exciting benefits with Apex Rewards loyalty program.
+              Unlock a world of exciting benefits with Apex Rewards loyalty
+              program.
             </p>
             <a href="" class="tablelink"> Learn more</a>
-
           </div>
 
- 
-
-            
           <div class="freea">
-            <a href="" class="instalink"> <img src="./pic/footer/21c4fcd8-40a4-4299-9384-417029ca6456.png" alt="" class="insta">
-             <img src="./pic/footer/304ea012-a1d6-4e0e-a7c8-497c16d0838c.jpg" alt="" class="insta">
-             <img src="./pic/footer/45e37e99-4209-42aa-89ec-f571d77e850e.jpg" alt="" class="insta">
-             <img src="./pic/footer/20d2a998-6052-4e02-b198-5ad0c3fe26bb.jpg" alt="" class="insta"></a>
+            <a href="" class="instalink">
+              <img
+                src="./pic/footer/21c4fcd8-40a4-4299-9384-417029ca6456.png"
+                alt=""
+                class="insta" />
+              <img
+                src="./pic/footer/304ea012-a1d6-4e0e-a7c8-497c16d0838c.jpg"
+                alt=""
+                class="insta" />
+              <img
+                src="./pic/footer/45e37e99-4209-42aa-89ec-f571d77e850e.jpg"
+                alt=""
+                class="insta" />
+              <img
+                src="./pic/footer/20d2a998-6052-4e02-b198-5ad0c3fe26bb.jpg"
+                alt=""
+                class="insta"
+            /></a>
             <h5 class="tableh">Stay Connected</h5>
             <p class="tablep">
-              Keep up with the latest styles, news and offers on our social channels.
+              Keep up with the latest styles, news and offers on our social
+              channels.
             </p>
-          
-
           </div>
         </div>
       </div>
-      
-        <div class="last">
-         <div class="sign">
 
+      <div class="last">
+        <div class="sign">
           <h3 class="lasth">Sign up and Stay Updated</h3>
-          <p class="lastp">Sign up and stay updated with the latest product launches and offers!</p>
+          <p class="lastp">
+            Sign up and stay updated with the latest product launches and
+            offers!
+          </p>
 
-          <input placeholder="Enter your email" class="lastin" type="email">
+          <input placeholder="Enter your email" class="lastin" type="email" />
           <div class="lasa">
             <i class="fa-solid fa-arrow-right lapa"></i>
           </div>
-         </div>
+        </div>
 
-
-         <div class="about">
-
+        <div class="about">
           <h3 class="lasth">About Apex</h3>
           <a href="" class="lasli">About us</a>
           <a href="" class="lasli">Blog</a>
           <a href="" class="lasli">Sustainability</a>
           <a href="" class="lasli">Press Release</a>
           <a href="" class="lasli">Contact Us</a>
-          <a href="" class="lasli">  FAQ's</a>
+          <a href="" class="lasli"> FAQ's</a>
+        </div>
 
-         
-          </div>
-
-
-          
-         <div class="about">
-
+        <div class="about">
           <h3 class="lasth">About Apex</h3>
-          <a href="" class="lasli">Terms & Conditions
-          </a>
+          <a href="" class="lasli">Terms & Conditions </a>
           <a href="" class="lasli">Shipping & Delivery</a>
-          <a href="" class="lasli">  How to order</a>
+          <a href="" class="lasli"> How to order</a>
           <a href="" class="lasli">Exchange & Return Policy</a>
           <a href="" class="lasli">Warranty Policy</a>
-          <a href="" class="lasli">   Privacy Policy</a>
-
-         
-          </div>
-
-           <div class="bk">
-            <img class="bk" src="./pic/footer/a6402468-6140-4958-bc85-1d4db76d9b1a.png" alt="">
-           </div>
-         </div>
-
-        </div>
-        <div class="ses">
-          © Apex Footwear Limited 2024
+          <a href="" class="lasli"> Privacy Policy</a>
         </div>
 
+        <div class="bk">
+          <img
+            class="bk"
+            src="./pic/footer/a6402468-6140-4958-bc85-1d4db76d9b1a.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="ses">© Apex Footwear Limited 2024</div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
