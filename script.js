@@ -1,5 +1,6 @@
 let a = 0;
 let total = 0;
+
 const addcart = document.querySelectorAll(".add_to");
 
 addcart.forEach(function (items) {
@@ -16,9 +17,10 @@ addcart.forEach(function (items) {
 
     let to = document.createElement("div");
 
-    to.innerHTML = `<div style="padding-bottom:15px; padding-left:15px "class="main_div"> <div class="img_d"><img src="${pro_img}"/></div>
+    to.innerHTML = `<div class="main_div"> <div class="img_d"><img class="imgjo" src="${pro_img}"/></div>
     <div class="ti">
-     <div>Name- ${productName}</div>  <div>Price- ${product_price}$</div></div> </div> `;
+     <div><b>Name-</b> ${productName}</div>  <div><b>Price-</b> ${product_price}$</div></div> 
+     <div> <button class="tra" ><i class="fa-solid fa-trash "></i></button></div></div> `;
     document.querySelector(".ekhane").append(to);
 
     a = a + 1;
@@ -29,6 +31,14 @@ addcart.forEach(function (items) {
     total = total + product_price;
 
     document.querySelector(".sub").innerHTML = `Subtotal: $${total}`;
+
+    // let deb = document.querySelectorAll(".tra");
+
+    // deb.forEach(i=>{
+    //   i.addEventListener('click',()=>{
+    //   document.querySelector(".ekhane").innerHTML="";
+    // })
+    // })
   });
 });
 
@@ -41,6 +51,28 @@ function be() {
   document.querySelector(".cart-items").classList.remove("cca");
   document.querySelector(".ca").classList.remove("cate");
 }
+
+let Buy = document.querySelector(".buy_now");
+
+Buy.addEventListener("click", () => {
+  document.querySelector(".conh").classList.add("con");
+
+  
+});
+
+function vg() {
+  document.querySelector(".conh").classList.remove("con");
+}
+
+
+
+
+  
+
+
+
+
+
 
 // let a = 0;
 

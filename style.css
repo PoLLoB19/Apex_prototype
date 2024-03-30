@@ -27,15 +27,15 @@ position: fixed;
 
 
 .ca{
-  display: none;
+ opacity: 0;
   z-index: 1;
   position: fixed;
-  left: -100%;
+  left: -200%;
   transition: left 0.8s ease;
   
 }
 .cate{
-display: block;
+opacity: 0.5;
   position: fixed;
   left: 0;
   transition:  0.8s ease;
@@ -712,10 +712,54 @@ color: aliceblue;
   align-items: center;
   margin-top: 8px;
   align-content: center;
+  padding: 5px;
+  overflow: hidden;
   
 }
 .main_div{
   display: flex;
    gap: 15px;
-   justify-items: center;
+  align-items: center;
+   padding-bottom:45px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.tra{
+  color: rgb(206, 16, 16);
+}
+.tra:hover{
+  color: rgb(238, 87, 87);
+  transform: scale(1.1);
+}
+
+.imgjo{
+  cursor: pointer;
+}
+.imgjo:hover{
+  transform: scale(1.1);
+
+}
+
+.ti{
+  font-size: 15px;
+}
+
+.conh{
+  height: 65vh;
+  width: 25vw;
+  background-color: aliceblue;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  z-index: 10;
+  background: rgb(93,91,130);
+background: linear-gradient(320deg, rgb(191, 189, 240) 0%, rgba(96,220,245,1) 100%);
+opacity: 0;
+transition: 0.8s ease;
+}
+
+.con{
+ opacity: 1 !important;
+ 
 }
